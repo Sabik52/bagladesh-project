@@ -3,10 +3,35 @@ body{
     padding: 0;
     
 }
-h1{
+.heading{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: 700;
+    color: green;
 
+}
+.heading-content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+   
+   
+}
+.image img{
+    width: 400px;
+    margin-right: 5%;
+
+}
+.left-section{
+    width: 50%;
+}
+button{
+    background-image: linear-gradient(60deg, green, red, green);
+    padding: 10px 40px ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
 }
